@@ -1,0 +1,12 @@
+[project]
+name = "cppbld"
+version = "0.1.0"
+description = "C++ Builder"
+
+[project.scripts]
+cppbld = "cppbld.cli:main"
+
+[tool.setuptools.packages.find]
+
+[tool.ruff]
+select = ["E", "F", "I"]
